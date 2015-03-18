@@ -1,0 +1,26 @@
+
+/* Begin Carousel - Responsive Styling */
+.carousel-overlay {
+	width: 75%;
+	height: 55%;
+	background-color: #FF6EB4;
+	border: 1px solid #6E6E6E;
+	position: absolute;
+	bottom: 90px;
+	right: 55px;
+	opacity: 0.8;
+}
+
+	.carousel-overlay p {
+		font-size: 2em;
+		/*border: 1px solid green;*/
+		margin: 20px;
+		font-weight: bolder;
+		color: white;
+		padding-top: 10%;
+		line-height: 40px;
+	}  
+
+.carousel-large div a:hover img {
+	opacity: 1.0;
+}

@@ -1,0 +1,35 @@
+
+/* Begin Carousel - Responsive Styling */
+.carousel-overlay {
+	width: 30%;
+	height: 65%;
+	background-color: #FF6EB4;
+	border: 1px solid #6E6E6E;
+	position: absolute;
+	bottom: 70px;
+	right: 75px;
+	opacity: 0.8;
+}
+
+	.carousel-overlay p {
+		font-size: 3em;
+		/*border: 1px solid red;*/
+		margin: 20px;
+		font-weight: bolder;
+		color: white;
+		padding-top: 10px;
+		line-height: 50px;
+	}  
+
+
+/* This makes sure the carousel does not become opaque when hovered over (all linked images on site are set to this otherwise) */
+.carousel-large div a:hover img {
+	opacity: 1.0;
+}
+
+
+
+
+
+
+

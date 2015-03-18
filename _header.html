@@ -1,0 +1,69 @@
+      <div id="wrapper-header"><!-- Begin wrapper-header -->
+       
+        <header>
+          <div class="inner-header">
+            <a href="index.php"><img id="main-logo" src="images/NYCinDUB.png" /></a>
+            
+            <nav id="main-nav">
+              <ul id="main-nav-ul">
+                <li <?php if ($page=="features") : ?> class="currentselectednav" <?php endif; ?>id="features"><a href="features.php">Features</a>
+                  <div class="nav-drop-down">
+                    <ul class="nav-drop-down-features"> 
+                      <li><a href="cover-story.php"><p>Cover Story</p></a></li>
+                      <li><a href="articles.php"><p>Articles</p></a></li>
+                      <li><a href="interviews.php"><p>Interviews</p></a></li>
+                      <li><a href="photos.php"><p>Photo Galleries</p></a></li>  
+                      <li><a href="videos.php"><p>Videos</p></a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li <?php if ($page=="reviews") : ?> class="currentselectednav" <?php endif; ?>id="reviews"><a href="reviews.php">Reviews</a>
+                  <div class="nav-drop-down">Menu Name</div>
+                </li>
+
+                <li <?php if ($page=="songs") : ?> class="currentselectednav" <?php endif; ?>id="songs"><a href="songs.php">Songs</a>
+                    <div class="nav-drop-down">Menu Name</div>
+                </li>
+
+                <li <?php if ($page=="artists") : ?> class="currentselectednav" <?php endif; ?>id="artists"><a href="artists.php">Artists</a>
+                    <div class="nav-drop-down">Menu Name</div>
+                </li>
+
+                <li <?php if ($page=="shows_and_events") : ?> class="currentselectednav" <?php endif; ?>id="showsandevents"><a href="showsandevents.php">Shows &amp; Events</a>
+                  <div class="nav-drop-down">
+                    <ul class="nav-drop-down-shows"> 
+                      <li><a href="showsandevents.php#bass"><p>Bass &amp; Dubstep</p></a></li>
+                      <li><a href="showsandevents.php#dance"><p>House &amp; Dance</p></a></li>
+                      <li><a href="showsandevents.php#experimental"><p>Experimental</p></a></li>  
+                      <li><a href="showsandevents.php#indie"><p>Indie Rock</p></a></li>
+                      <li><a href="showsandevents.php#reggae"><p>Reggae &amp; Dub</p></a></li> 
+                      <li><a href="showsandevents.php#hiphop"><p>Hip-Hop</p></a></li> 
+                      <li><a href="showsandevents.php#jazz"><p>Jazz</p></a></li>
+                      <li><a href="showsandevents.php#records"><p>Record Stores</p></a></li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+
+            </nav> <!-- End main-nav -->
+
+          </div>
+
+          <div class="clear"></div>
+
+        </header>
+
+      </div> <!-- End wrapper-header -->
+
+<!-- Facebook Share Code -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Facebook Share Code -->      

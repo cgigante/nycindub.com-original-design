@@ -1,0 +1,25 @@
+            <!--  *****************Begin Carousel***********************-->
+            <div class="carousel-small">
+              <script type="text/javascript">
+                $(document).ready(function(){
+                      $('.autoplay').slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        arrows: false,
+                        pauseOnHover: true,
+                      });
+                    });
+              </script>
+
+
+              <div class="autoplay"><!-- Begin Images in Carousel -->
+
+<?php while ($row = $resultReviews->fetch_assoc()) : ?>
+                <div><a href="reviews.php" title="<?php echo $row['albumartist']; ?>"><img class="small-img" src="<?php echo $row['albummainimage']; ?>" /></a></div>
+<?php endwhile; ?>
+
+              </div><!-- End Images in Carousel -->
+            </div> <!-- End carousel-small -->
+            <!--  *****************End Carousel***********************-->

@@ -1,0 +1,168 @@
+
+/* Begin Carousel - Responsive Styling */
+.carousel-overlay {
+	width: 75%;
+	height: 55%;
+	background-color: #FF6EB4;
+	border: 1px solid #6E6E6E;
+	position: absolute;
+	bottom: 90px;
+	right: 55px;
+	opacity: 0.8;
+}
+
+	.carousel-overlay p {
+		font-size: 2em;
+		/*border: 1px solid green;*/
+		margin: 20px;
+		font-weight: bolder;
+		color: white;
+		padding-top: 10%;
+		line-height: 40px;
+	}  
+
+.carousel-large div a:hover img {
+	opacity: 1.0;
+}
+
+/* BEGIN Features CATEGORY */
+
+.home-category-content {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+} 
+
+	.home-category-content-image a img {
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.home-category-content-textbox {
+		float: left;
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 100%;
+		height: 100%;
+		background-color: blue;
+		opacity: 0.8;
+	}
+
+		.home-category-content-textbox h4 {
+			font-weight: bolder;
+			font-size: 1.5em;
+			margin-bottom: 0;
+			margin-top: 50px;
+		}
+
+		.home-category-content-textbox p {
+			margin-bottom: 10px;
+			margin-right: 10px;
+			font-size: 1.2em;
+			font-weight: bolder;
+		}
+/* END Features CATEGORY */
+
+
+/* BEGIN REVIEWS CATEGORY */
+figure {
+	min-width: 200px;
+	/** outline: solid 1px red; /* uncomment rule to see figure outline */
+	position: relative;
+	float: left;
+	padding: 0;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+
+	figure a:hover figcaption {
+		text-decoration: none;
+		color: #FF6EB4;
+	}
+
+img.review-img {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+
+figcaption {
+	bottom: 5px;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 8px;
+	position: absolute;
+	background: rgba(0,0,0,.56);
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+	figcaption a {
+		color: white;
+	}
+
+	figcaption h4 {
+		margin: 0 0 8px;
+		padding: 0 0 5px;
+		border-bottom: solid 1px black;
+		box-shadow: 0 1px 0 0 rgba(255,255,255,.35);
+		font-size: 17px;
+	}
+	figcaption p {
+		margin: 0;
+		line-height: 1.25;
+	}
+
+/* END REVIEWS CATEGORY */
+
+
+/* BEGIN ARTISTS CATEGORY STYLING */
+
+.artist {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+	.artist-image {
+		float: left;
+		max-height: 400px;
+	}
+
+	.artist-description {
+		float: left;
+		max-width: 100%;
+		height: 100%;
+		padding-left: 10px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: white;
+		opacity: 0.9;
+		overflow: scroll;
+	}
+
+		.artist-description h4 {
+			font-weight: bolder;
+			font-size: 2.5em;
+			margin-bottom: 0;
+			margin-top: 50px;
+		}
+
+		.artist-description p {
+			/*margin-bottom: 10%;*/
+			margin-right: 10%;
+			font-size: 1.1em;
+			font-weight: bolder;
+		}
+
+/* END ARTISTS CATEGORY STYLING */
